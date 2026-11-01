@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+template<class T> void mySwap ( T&first , T&second)
+{
+T temp;
+temp=first;
+first=second;
+second=temp;
+
+}
+int main()
+{
+int ix,iy;
+float fx, fy;
+cout<<"enter ano twoNo\n";
+cin>>ix>>iy;
+cout<<"enter the number\n";
+cin>>fx>>fy;
+swap(ix,iy);
+cout<<"after swapping";
+cout<<ix<<iy;
+swap(fx,fy);
+cout<<"after swapping:";cout<<fx<<fy<<endl;
+return 0;
+}
